@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prompt Optimizer</h1>
+        
+        <div class="settings">
+            <label for="apiKey">Gemini API Key:</label>
+            <input type="password" id="apiKey" placeholder="Enter your Gemini API key">
+            <button id="saveKey">Save</button>
+        </div>
+
+        <div class="status">
+            <span id="statusText">Ready to optimize prompts</span>
+        </div>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" id="autoOptimize" checked>
+                Auto-optimize prompts
+            </label>
+        </div>
+
+        <div class="test-section">
+            <h3>Test Prompt Optimization</h3>
+            <textarea id="testPrompt" placeholder="Enter a test prompt here..."></textarea>
+            <button id="testButton">Test Optimization</button>
+            <div id="testResult" class="result"></div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
