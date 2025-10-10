@@ -20,7 +20,6 @@ staticfiles/
 # System and IDE files
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 
 # Build folders
@@ -36,3 +35,6 @@ dist/
 *.h5
 *.pkl
 *.joblib
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
